@@ -1,0 +1,104 @@
+/* Colors and fonts */
+body {
+	background-color: #EEF1FF; 
+	color: black;
+  font-size: 17px;
+
+  
+	text-decoration: none;
+	text-align: center;
+	font-family: DM Serif Display; 
+}
+
+h1 {
+  color: #18122B;
+  font-weight: 640;
+  font-size: 40px;
+}
+
+h2 {
+  color: #393053;
+	text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: #645CBB;
+  transition: color 0.3s ease;
+  font-weight: bolder;
+}
+
+a:hover {
+  color: #9DF1DF;
+}
+
+p {
+  color: black;
+	font-size: 20px;
+	font-family: DM Serif Display;
+}
+
+
+/* Custom design with class */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	margin: 20px 0px ;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #645CBB;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: #9DF1DF;
+	color: black;
+}
+
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-horizontal li {
+	display: inline;
+	padding: 10px;
+	font-size: 30px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
